@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+
+.alineacionTexto {
+  height: 150px;
+  position: relative;
+  top: 65px;
+}
+
+.bloqueImagen1,
+.bloqueImagen2,
+.bloqueImagen3 {
+  background-color: #f3f3f3;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 2px 1px 5px rgba(199, 199, 199);
+  height: 529px;
+  width: 300px;
+}
+
+.Batman1Posicion,
+.imgRedonda3 {
+  background-image: url(../img/Bat1.png);
+}
+.batman3Posicion {
+  bottom: 1060px;
+  left: 665px;
+  position: relative;
+}
+.contenedor-titulo {
+  background-color: #00669f;
+  box-shadow: 1px 8px 5px rgb(199, 199, 199);
+  height: 101px;
+  font-size: 40px;
+  position: sticky;
+  top: 4px;
+}
+
+.contenedor-titulo1 {
+  left: 28px;
+  position: relative;
+  top: 18px;
+}
+.contenedorImagenes {
+  left: 32px;
+  height: 1000px;
+  position: relative;
+  top: 292px;
+  width: 980px;
+}
+.contenedorCorazon {
+  left: 20px;
+  position: absolute;
+  top: 20px;
+}
+
+.descripcion {
+  top: 200px;
+}
+.Descuentos {
+  left: 27px;
+  position: relative;
+}
+footer {
+  background-color: #00669f;
+  color: #fff9f9;
+  height: 51px;
+}
+.harleyPosicion {
+  bottom: 530px;
+  left: 332px;
+  position: relative;
+}
+.Harley {
+  background-image: url(../img/Har1.png);
+}
+h1 {
+  height: 101px;
+  position: relative;
+  top: 38px;
+}
+
+h3 {
+  position: relative;
+  top: 10px;
+}
+.imagen1,
+.imagen2,
+.imagen3 {
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+}
+
+.imagen1,
+.imagen3 {
+  background-image: url(../img/Batman1.png);
+}
+
+.imagen2 {
+  background-image: url(../img/Harley.png);
+}
+
+.imgCorazon {
+  background-image: url(../img/Corazon.png);
+}
+
+.imgRedonda1,
+.imgRedonda2,
+.imgRedonda3 {
+  align-content: center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  height: 125px;
+  left: 90px;
+  position: relative;
+  top: 125px;
+  width: 130px;
+}
+
+input {
+  background-color: #00669f;
+  color: #f3f3f3;
+  font-size: 15px;
+  height: 48px;
+  left: 80px;
+  position: relative;
+  width: 128px;
+}
+
+p {
+  padding: 10px;
+}
+.tituloImg {
+  text-align: center;
+}
+.tituloFondo {
+  position: relative;
+  position: sticky;
+  top: 1px;
+}
+
+.tituloDescuentos {
+  background-color: #1cd1b0;
+  height: 38px;
+}
